@@ -168,14 +168,20 @@ section .section-values article .article-values:nth-child(3) {
 section .section-pricing article {
     background: rgba(245, 248, 250, 255);
     display: inline-block;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 section .section-pricing article .article-pricing {
-    width: 310px;
+    width: 100%;
+    margin: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
     position: relative;
     overflow: hidden;
     height: 610px;
-    vertical-align: top;
 }
 
 section .section-pricing article .article-pricing .feat-text {
@@ -187,13 +193,16 @@ section .section-pricing article .article-pricing .feat-text {
     transform: rotate(40deg);
     text-align: right;
     margin-bottom: 50px;
-    background: rgba(65, 83, 241, 255);
     text-align: center;
     top: 10px;
     right: -70px;
     width: 200px;
     padding: 5px;
     color: white;
+}
+
+section .section-pricing article:nth-child(1) {
+    height: 100px;
 }
 
 section .section-pricing article .article-pricing .text-val,
