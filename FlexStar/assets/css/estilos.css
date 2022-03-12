@@ -1,0 +1,328 @@
+header {
+    background: rgba(252, 252, 253, 255);
+    margin: 0px 0px 100px 40px;
+}
+
+header .lista-principal {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+header .lista-principal ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+}
+
+header .logo {
+    margin-top: 10px;
+}
+
+header .logo .image-logo {
+    display: inline-block;
+}
+
+header .logo .image-logo img {
+    height: 30px;
+}
+
+header .logo .title-logo {
+    display: inline-block;
+    color: rgb(1, 41, 112, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+* {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(1, 41, 112, 255);
+}
+
+header .lista-principal ul li:nth-child(1) a,
+header .lista-principal ul li:nth-child(8) a {
+    text-decoration: none;
+    color: rgba(128, 140, 246, 255);
+}
+
+header .lista-principal ul li a {
+    text-decoration: none;
+}
+
+header .lista-principal ul li .btn-get-started {
+    background: rgba(65, 83, 241, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+header .lista-principal ul li .btn-get-started a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    margin-left: 40px;
+    background: rgba(252, 252, 253, 255);
+}
+
+section .main-section {
+    position: relative;
+    height: 410px;
+    background: linear-gradient(to right, rgba(242, 245, 251, 255), white);
+    ;
+}
+
+section .main-section .text {
+    display: inline-block;
+    text-align: left;
+    width: 600px;
+    margin-top: 90px;
+}
+
+section .main-section .first-text {
+    font-size: 45px;
+}
+
+section .main-section .second-text {
+    color: rgba(102, 103, 104, 255);
+    font-size: 23px;
+    margin-top: 25px;
+}
+
+section .main-section .art-image {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+section .main-section .btn-get-started {
+    margin: 30px 0px 0px 0px;
+    background: rgba(65, 83, 241, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    width: 110px;
+}
+
+section .main-section .btn-get-started a span {
+    display: inline-block;
+    color: white;
+    font-weight: 0px;
+}
+
+section .main-section .art-image img {
+    width: 500px;
+}
+
+section .title {
+    text-align: center;
+    color: rgba(65, 83, 241, 255);
+    margin-bottom: 13px;
+}
+
+section .second-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+section .section-values {
+    margin-bottom: 100px;
+}
+
+section .section-values article {
+    display: inline-block;
+}
+
+section .section-values article .article-values {
+    width: 300px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+section .section-values article .article-values .art-image img {
+    width: 350px;
+}
+
+section .section-values article .article-values .text .first-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+section .section-values article .article-values .text .second-text {
+    color: rgba(102, 103, 104, 255);
+    font-size: 12px;
+    text-align: center;
+}
+
+section .section-values article .article-values:nth-child(1) {
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+section .section-values article .article-values:nth-child(3) {
+    margin-left: 100px;
+}
+
+section .section-pricing article {
+    background: rgba(245, 248, 250, 255);
+    display: inline-block;
+}
+
+section .section-pricing article .article-pricing {
+    width: 310px;
+    position: relative;
+    overflow: hidden;
+    height: 610px;
+    vertical-align: top;
+}
+
+section .section-pricing article .article-pricing .feat-text {
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-weight: 0;
+    width: 200px;
+    transform: rotate(40deg);
+    text-align: right;
+    margin-bottom: 50px;
+    background: rgba(65, 83, 241, 255);
+    text-align: center;
+    top: 10px;
+    right: -70px;
+    width: 200px;
+    padding: 5px;
+    color: white;
+}
+
+section .section-pricing article .article-pricing .text-val,
+section .section-pricing article .article-pricing .title-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .section-pricing article .article-pricing .title-text {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+section .section-pricing article .article-pricing .free {
+    color: rgba(3, 213, 192, 255);
+}
+
+section .section-pricing article .article-pricing .starter {
+    color: rgba(104, 199, 10, 255);
+}
+
+section .section-pricing article .article-pricing .business {
+    color: rgba(255, 144, 28, 255);
+}
+
+section .section-pricing article .article-pricing .ultimate {
+    color: rgba(255, 66, 143, 255);
+}
+
+section .section-pricing article .article-pricing .text-val * {
+    display: inline-block;
+}
+
+section .section-pricing article .article-pricing .text-val div:nth-child(1) {
+    font-size: 25px;
+    vertical-align: top;
+    color: rgba(68, 68, 68, 255);
+}
+
+section .section-pricing article .article-pricing .text-val div:nth-child(2) {
+    margin-top: 0px;
+    font-size: 35px;
+    color: rgba(68, 68, 68, 255);
+}
+
+section .section-pricing article .article-pricing .text-val div:nth-child(3) {
+    margin-top: 0px;
+    font-size: 20px;
+    color: rgba(204, 204, 204, 255);
+}
+
+section .section-pricing article .article-pricing .art-image {
+    margin: 50px;
+}
+
+section .section-pricing article .article-pricing .art-image img {
+    width: 200px;
+}
+
+section .section-pricing article .article-pricing ul li {
+    font-size: 15px;
+    font-weight: 0;
+    list-style: none;
+    line-height: 30px;
+    margin-left: -15%;
+    text-align: center;
+}
+
+section .section-pricing article .article-pricing ul li:nth-child(4) div,
+section .section-pricing article .article-pricing ul li:nth-child(5) div {
+    color: rgba(204, 204, 204, 255) !important;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+section .section-pricing article .article-pricing .btn-buy {
+    width: 100px;
+    border: 1px rgba(132, 144, 246, 255) solid;
+    text-align: center;
+    padding: 15px 25px 15px 25px;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+section .section-pricing article div:nth-child(1) .article-pricing {
+    background: red;
+}
+
+section .section-pricing article .article-pricing:nth-child(3) {
+    margin-left: 10px;
+}
+
+section .section-team {}
+
+section .section-team .art-team {
+    display: inline-block;
+    width: 280px;
+}
+
+section .section-team .art-team .art-image {
+    overflow: hidden;
+    border-radius: 3px;
+    width: 280px;
+    height: 300px;
+}
+
+section .section-team .art-team .art-image img {
+    width: 300px;
+}
+
+section .section-team .art-team .text {
+    text-align: center;
+}
+
+section .section-team .art-team .text div:nth-child(1) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+section .section-team .art-team .text div:nth-child(2) {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: rgba(173, 173, 173, 255);
+}
+
+section .section-team .art-team .text div:nth-child(3) {
+    font-size: 13px;
+    color: rgba(100, 100, 100, 255);
+    line-height: 25px;
+}
